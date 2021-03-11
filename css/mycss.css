@@ -192,6 +192,9 @@ body{
 }
 .sub-menu-box .sub-text{
     color: #333333;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
 }
 .main-menu:hover .sub-menu-box{
     display: block;
@@ -204,6 +207,9 @@ body{
 .sub-menu-box ul{
     float: left;
     width: 248px;
+}
+.sub-menu-box2{
+    width: 774px;
 }
 .channel-box{
     margin-top: 15px;
